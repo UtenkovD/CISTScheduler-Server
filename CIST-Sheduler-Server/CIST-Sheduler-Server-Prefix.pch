@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CIST-Sheduler-Server' target in the 'CIST-Sheduler-Server' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

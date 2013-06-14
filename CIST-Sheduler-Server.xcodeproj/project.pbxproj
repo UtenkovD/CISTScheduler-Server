@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3CCC73F1764D4D000A57B08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3CCC73E1764D4D000A57B08 /* Foundation.framework */; };
+		C3CCC7421764D4D000A57B08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CCC7411764D4D000A57B08 /* main.m */; };
+		C3CCC7461764D4D000A57B08 /* CIST_Sheduler_Server.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C3CCC7451764D4D000A57B08 /* CIST_Sheduler_Server.1 */; };
+		C3CCC74E1764D51600A57B08 /* CISTGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CCC74D1764D51600A57B08 /* CISTGateway.m */; };
+		C3CCC7561764D7B400A57B08 /* URLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CCC7541764D7B400A57B08 /* URLConnection.m */; };
+		C3CCC75A1764D7D400A57B08 /* NSObject-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CCC7591764D7CD00A57B08 /* NSObject-Utilities.m */; };
+		C3CCC75F1765301C00A57B08 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CCC75E1765301C00A57B08 /* CHCSVParser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C3CCC7381764D4D000A57B08 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				C3CCC7461764D4D000A57B08 /* CIST_Sheduler_Server.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C3CCC73A1764D4D000A57B08 /* CIST-Sheduler-Server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CIST-Sheduler-Server"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3CCC73E1764D4D000A57B08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3CCC7411764D4D000A57B08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3CCC7441764D4D000A57B08 /* CIST-Sheduler-Server-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CIST-Sheduler-Server-Prefix.pch"; sourceTree = "<group>"; };
+		C3CCC7451764D4D000A57B08 /* CIST_Sheduler_Server.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CIST_Sheduler_Server.1; sourceTree = "<group>"; };
+		C3CCC74C1764D51600A57B08 /* CISTGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CISTGateway.h; sourceTree = "<group>"; };
+		C3CCC74D1764D51600A57B08 /* CISTGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CISTGateway.m; sourceTree = "<group>"; };
+		C3CCC7531764D7B400A57B08 /* URLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLConnection.h; sourceTree = "<group>"; };
+		C3CCC7541764D7B400A57B08 /* URLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLConnection.m; sourceTree = "<group>"; };
+		C3CCC7581764D7CD00A57B08 /* NSObject-Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject-Utilities.h"; sourceTree = "<group>"; };
+		C3CCC7591764D7CD00A57B08 /* NSObject-Utilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject-Utilities.m"; sourceTree = "<group>"; };
+		C3CCC75B1764E07000A57B08 /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		C3CCC75D1765301C00A57B08 /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
+		C3CCC75E1765301C00A57B08 /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3CCC7371764D4D000A57B08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3CCC73F1764D4D000A57B08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3CCC72F1764D4D000A57B08 = {
+			isa = PBXGroup;
+			children = (
+				C3CCC75C1765301C00A57B08 /* CHCSVParser */,
+				C3CCC75B1764E07000A57B08 /* File */,
+				C3CCC7401764D4D000A57B08 /* CIST-Sheduler-Server */,
+				C3CCC73D1764D4D000A57B08 /* Frameworks */,
+				C3CCC73B1764D4D000A57B08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3CCC73B1764D4D000A57B08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3CCC73A1764D4D000A57B08 /* CIST-Sheduler-Server */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3CCC73D1764D4D000A57B08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3CCC73E1764D4D000A57B08 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3CCC7401764D4D000A57B08 /* CIST-Sheduler-Server */ = {
+			isa = PBXGroup;
+			children = (
+				C3CCC7571764D7CD00A57B08 /* NSObject+Utilities */,
+				C3CCC74F1764D7B400A57B08 /* URLConnection */,
+				C3CCC7411764D4D000A57B08 /* main.m */,
+				C3CCC7451764D4D000A57B08 /* CIST_Sheduler_Server.1 */,
+				C3CCC7431764D4D000A57B08 /* Supporting Files */,
+				C3CCC74C1764D51600A57B08 /* CISTGateway.h */,
+				C3CCC74D1764D51600A57B08 /* CISTGateway.m */,
+			);
+			path = "CIST-Sheduler-Server";
+			sourceTree = "<group>";
+		};
+		C3CCC7431764D4D000A57B08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3CCC7441764D4D000A57B08 /* CIST-Sheduler-Server-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3CCC74F1764D7B400A57B08 /* URLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				C3CCC7531764D7B400A57B08 /* URLConnection.h */,
+				C3CCC7541764D7B400A57B08 /* URLConnection.m */,
+			);
+			path = URLConnection;
+			sourceTree = "<group>";
+		};
+		C3CCC7571764D7CD00A57B08 /* NSObject+Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C3CCC7581764D7CD00A57B08 /* NSObject-Utilities.h */,
+				C3CCC7591764D7CD00A57B08 /* NSObject-Utilities.m */,
+			);
+			path = "NSObject+Utilities";
+			sourceTree = "<group>";
+		};
+		C3CCC75C1765301C00A57B08 /* CHCSVParser */ = {
+			isa = PBXGroup;
+			children = (
+				C3CCC75D1765301C00A57B08 /* CHCSVParser.h */,
+				C3CCC75E1765301C00A57B08 /* CHCSVParser.m */,
+			);
+			path = CHCSVParser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3CCC7391764D4D000A57B08 /* CIST-Sheduler-Server */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3CCC7491764D4D000A57B08 /* Build configuration list for PBXNativeTarget "CIST-Sheduler-Server" */;
+			buildPhases = (
+				C3CCC7361764D4D000A57B08 /* Sources */,
+				C3CCC7371764D4D000A57B08 /* Frameworks */,
+				C3CCC7381764D4D000A57B08 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CIST-Sheduler-Server";
+			productName = "CIST-Sheduler-Server";
+			productReference = C3CCC73A1764D4D000A57B08 /* CIST-Sheduler-Server */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3CCC7311764D4D000A57B08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Coderivium;
+			};
+			buildConfigurationList = C3CCC7341764D4D000A57B08 /* Build configuration list for PBXProject "CIST-Sheduler-Server" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3CCC72F1764D4D000A57B08;
+			productRefGroup = C3CCC73B1764D4D000A57B08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3CCC7391764D4D000A57B08 /* CIST-Sheduler-Server */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3CCC7361764D4D000A57B08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3CCC7421764D4D000A57B08 /* main.m in Sources */,
+				C3CCC74E1764D51600A57B08 /* CISTGateway.m in Sources */,
+				C3CCC7561764D7B400A57B08 /* URLConnection.m in Sources */,
+				C3CCC75A1764D7D400A57B08 /* NSObject-Utilities.m in Sources */,
+				C3CCC75F1765301C00A57B08 /* CHCSVParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C3CCC7471764D4D000A57B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C3CCC7481764D4D000A57B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C3CCC74A1764D4D000A57B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CIST-Sheduler-Server/CIST-Sheduler-Server-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C3CCC74B1764D4D000A57B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CIST-Sheduler-Server/CIST-Sheduler-Server-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3CCC7341764D4D000A57B08 /* Build configuration list for PBXProject "CIST-Sheduler-Server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3CCC7471764D4D000A57B08 /* Debug */,
+				C3CCC7481764D4D000A57B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3CCC7491764D4D000A57B08 /* Build configuration list for PBXNativeTarget "CIST-Sheduler-Server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3CCC74A1764D4D000A57B08 /* Debug */,
+				C3CCC74B1764D4D000A57B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3CCC7311764D4D000A57B08 /* Project object */;
+}
